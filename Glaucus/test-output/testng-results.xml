@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17063" started-at="2019-08-02T08:05:07Z" finished-at="2019-08-02T08:05:24Z">
+    <groups>
+      <group name="HomePage">
+        <method signature="TestLoginPage.Test_omsClick()[pri:6, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="Test_omsClick" class="Glaucus.Glaucus.TestLoginPage"/>
+      </group> <!-- HomePage -->
+      <group name="LoginPage">
+        <method signature="TestLoginPage.Test_Logo()[pri:1, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="Test_Logo" class="Glaucus.Glaucus.TestLoginPage"/>
+        <method signature="TestLoginPage.Test_Url()[pri:3, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="Test_Url" class="Glaucus.Glaucus.TestLoginPage"/>
+        <method signature="TestLoginPage.Test_emailLoginButtonAndPassword()[pri:4, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="Test_emailLoginButtonAndPassword" class="Glaucus.Glaucus.TestLoginPage"/>
+        <method signature="TestLoginPage.Test_tittleVerification()[pri:2, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="Test_tittleVerification" class="Glaucus.Glaucus.TestLoginPage"/>
+        <method signature="TestLoginPage.Test_userProfile()[pri:5, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="Test_userProfile" class="Glaucus.Glaucus.TestLoginPage"/>
+      </group> <!-- LoginPage -->
+    </groups>
+    <test name="Default test" duration-ms="17063" started-at="2019-08-02T08:05:07Z" finished-at="2019-08-02T08:05:24Z">
+      <class name="Glaucus.Glaucus.TestLoginPage">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="openBrowser" is-config="true" duration-ms="6719" started-at="2019-08-02T08:05:07Z" finished-at="2019-08-02T08:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="Test_Logo()[pri:1, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="Test_Logo" duration-ms="78" started-at="2019-08-02T08:05:14Z" finished-at="2019-08-02T08:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Logo -->
+        <test-method status="PASS" signature="Test_tittleVerification()[pri:2, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="Test_tittleVerification" duration-ms="11" started-at="2019-08-02T08:05:14Z" finished-at="2019-08-02T08:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_tittleVerification -->
+        <test-method status="PASS" signature="Test_Url()[pri:3, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="Test_Url" duration-ms="5" started-at="2019-08-02T08:05:14Z" finished-at="2019-08-02T08:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Url -->
+        <test-method status="PASS" signature="Test_emailLoginButtonAndPassword()[pri:4, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="Test_emailLoginButtonAndPassword" duration-ms="4423" started-at="2019-08-02T08:05:14Z" finished-at="2019-08-02T08:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_emailLoginButtonAndPassword -->
+        <test-method status="PASS" signature="Test_userProfile()[pri:5, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="Test_userProfile" duration-ms="458" started-at="2019-08-02T08:05:19Z" finished-at="2019-08-02T08:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_userProfile -->
+        <test-method status="PASS" signature="Test_omsClick()[pri:6, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="Test_omsClick" duration-ms="229" started-at="2019-08-02T08:05:19Z" finished-at="2019-08-02T08:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_omsClick -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:Glaucus.Glaucus.TestLoginPage@4b9e13df]" name="closeTest" is-config="true" duration-ms="5104" started-at="2019-08-02T08:05:19Z" finished-at="2019-08-02T08:05:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- Glaucus.Glaucus.TestLoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
