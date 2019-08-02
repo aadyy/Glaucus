@@ -3,7 +3,6 @@ package Glaucus.Glaucus;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import pageClass.LoginPage;
 
 public class TestLoginPage extends BaseClass
@@ -39,15 +38,9 @@ public class TestLoginPage extends BaseClass
 		lobj.emailLoginButtonAndPassword(prop.getProperty("email"),prop.getProperty("pass"));
 		}
 		
-		@Test(priority = 5, enabled = true, groups = "LoginPage")
-		public void Test_userProfile() {
-		lobj.userProfile();
-		}
+	
 		
-		@Test(priority = 6, enabled = true, groups = "HomePage")
-		public void Test_omsClick() {
-		lobj.omsClick();
-		}
+		
 		
 		
 		

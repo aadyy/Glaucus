@@ -46,25 +46,7 @@ public class LoginPage extends BaseClass {
 	loginbutton.click();
 	}
 	
-	@FindBy(xpath = ConfigrationPropertyFile.profileName)
-	WebElement profileName;
-	public void userProfile() {
-	String name=profileName.getText();
-	System.out.println("user profile name-->"+name);
-	}
 	
-	@FindBy(xpath = ConfigrationPropertyFile.oms)
-	WebElement oms;
-	@FindBy(xpath = ConfigrationPropertyFile.omsFullname)
-	WebElement omsfullTittle;
-	public void omsClick() {
-	oms.click();
-	String omstittle=oms.getText();
-	System.out.println("OMS tittle name-->"+omstittle);
-	
-	String omsFull=omsfullTittle.getText();
-	System.out.println("OMSFullTittle-->"+omsFull);
-	}
 	
 	
 }
